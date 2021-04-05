@@ -1,0 +1,12 @@
+Scanner entrada= new Scanner(System.in);
+        int horas;
+        int costo;
+        int mes;
+        int año;
+          System.out.println("Ingrese horas trabajadas y el costo ");
+          horas = entrada.nextInt();
+          costo = entrada.nextInt();
+          mes = horas * costo;
+            System.out.println("El sueldo por mes "+mes);
+            año = mes * 12;
+              System.out.println("El sueldo por año es "+año);
